@@ -14,13 +14,9 @@ public class MobileDevice {
     }
 
     public double calculateDiscount(double discount) {
-        double total = 0;
-
-        // monetary discount:
-        // total = this.cost - discount;
-
+        double total;
         // percent discount
-        // total = this.cost * (discount / 100);
+        total = this.cost * (discount / 100);
 
         return total;
     }
